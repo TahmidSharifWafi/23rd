@@ -1,0 +1,64 @@
+nav{
+    height: 12vh;
+}
+
+#container{
+    display: flex;
+    width: 100vw;
+    height: 88vh;
+}
+
+#myCardPart{
+    width: 50vw;
+    /* background-color: rgb(255, 113, 103); */
+}
+
+#biographyPart{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50vw;
+    background-color: white;
+}
+
+#biographyPart #heading{
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+#heading span{
+    color: rgb(123, 27, 27);
+}
+
+.button{
+    width: 90px;
+    height: 33px;
+    border-radius: 50px;
+    background-color: rgb(121, 43, 56);
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+#biographyPart p{
+    font-size: bold;
+    color: black;
+    font-weight: 300;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+#biographyPart div{
+    margin-top: 100px; 
+}
+
+#card{
+    width: 300px;
+    height: 500px;
+    margin: 60px 200px;
+    background-color: rgb(152, 37, 37);
+    text-align: center;
+    border-radius: 10px;
+}

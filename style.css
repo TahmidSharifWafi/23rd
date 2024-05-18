@@ -1,0 +1,83 @@
+#gradeCalculator{
+    background-color: white;
+    color: #000000;
+    width: 700px;
+    box-shadow: #d3d3d3 1px 1px 100px 1px;
+    display: flex;
+}
+
+input{
+    width: 290px;
+    height: 40px;
+    padding: 7px;
+    padding-left: 22px;
+    padding-right: 17px;
+    font-size: 10px;
+    border: none;
+    border-radius: 50px;
+}
+
+#resultsContainer{
+    background-color: rgba(2, 232, 224, 0.7);
+    height: 460px;
+}
+
+#passoOrFail{
+    background-color: #00DEEC; 
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 45px;
+    margin-top: 0px;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#inputsContainer{
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #ededed;
+    width: 500px;
+    height: 460px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#resultButton{
+    width: 120px;
+    /* background-color: #009BA5; */
+    background-color: black;
+    border: 1px solid cyan;
+    padding: 6px;
+    border-radius: 50px;
+    margin-top: 0px;
+    font-weight: bold;
+    color: white;
+    transition: 0.25s;
+}
+
+#resultButton:hover{
+    background-color: rgb(2, 197, 2);
+    color: black;
+}
+
+#heading{
+    margin-top: 20px;
+}
+
+p{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 0px;
+    font-family: sans-serif;
+}
+
+#mathInput{
+    margin-top: 0px;
+}
+
+nav{
+    height: 12vh;
+}
